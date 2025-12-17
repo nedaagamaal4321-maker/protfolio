@@ -134,39 +134,39 @@ justify-content: center;
 
 .projects{
     padding:100px 30px;
+   
 }
 
 .photos div{
-    width: 400px;
-    height:500px;
+    width: 295px;
+    height:530px;
     background-color: beige;
     text-align: center;
     border: none;
     border-radius: 10px;
-   
+    box-shadow:  rgba(206, 163, 106, 0.712) 4px 2px 2px;
+}
+.photos div p{
+    font-weight: bolder;
+    margin-top: 10px;
 }
 .photos div button{
     border: none;
     border-radius: 10px;
     background-color: rgb(206, 163, 106) ;
-    width: 75px;
-    height: 30px;
+    padding: 7px;
     margin-left: 5px;
     color: white;
+    font-size: 16px;
 }
 .photos div a{
 text-decoration: none;
-/* display: inline-block; */
 border-radius: 10px;
 background-color: rgb(15, 167, 15);
 color: white;
 padding: 10px;
 }
-.photos div a:hover{
-    background-color: beige;
-    color: black;
-    
-}
+
 
 .photos div  img{
     object-fit: cover;
@@ -176,9 +176,7 @@ padding: 10px;
     border: none;
     border-radius: 10px;
 }
-.photos div  img:hover{
-    transform: scale(1.01);
-}
+
 
 
 
