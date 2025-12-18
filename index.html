@@ -25,7 +25,7 @@
       aria-label="Toggle navigation">
       <i class="fa-solid fa-bars text-white"></i>
     </button>
-
+         <h4 class="text-light"><a href="index.html">Nedaa</a></h4>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
@@ -54,17 +54,12 @@
 
 
            <div class="img row align-items-center justify-content-center mt-5">
-             <div class="text-bg-dark col-12 col-lg-5">
+             <div class="text-light col-12 col-lg-5 text-center">
                 <h1 class="mb-4">Nedaa Marwan</h1>
                 <p>Front-End Web Developer dedicated to building smooth, fast, and user-friendly web experiences, constantly improving my skills and bringing modern designs to life using the latest web technologies.</p>
-            </div>
-             <div class="col-12 col-lg-5 my-3">
-              <img src="img/WhatsApp Image 2025-11-16 at 17.08.09_5ea30579.jpg" alt="">
-             </div>
-
-              <div class="col-12 col-lg-10">
-                <a href="#contact" class=" btn text-white">Contect Me</a>
+                  <a href="#contact" class=" btn text-white">Contect Me</a>
               </div>
+            
                 
            </div>
               
@@ -81,13 +76,13 @@
 
          <section class="about" id="about">
             <div>
-                <h2>About Me</h2>
-                   <p>Helo, I’m a Front-End Developer passionate about creating clean and responsive web interfaces.
+                <h2 class="fw-bolder">About Me</h2>
+                   <p class="fs-5">Helo, I’m a Front-End Developer passionate about creating clean and responsive web interfaces.
                    I use HTML, CSS, JavaScript, and Bootstrap to build user-friendly layouts and bring ideas to life.
                    I’m highly organized, committed to deadlines, and always write clean and well-structured code.
                    I enjoy learning new technologies and continuously improving my skills to deliver better results.
                    Currently, I’m developing my portfolio and looking for opportunities to gain real project experience and grow in the field.</p>
-                           <button  class=" text-white mx-3"><a href="img/Nedaa Marwan - Front End Developer Cv.pdf" download>Download CV</a></button>
+                           <button  class=" text-white mx-3 "><a href="img/Nedaa Marwan - Front End Developer Cv.pdf" download>Download CV</a></button>
                   </div>
 
                  
@@ -101,7 +96,7 @@
 
 
  <section class="section1 container my-5 " id="experience">
-    <h2 class="my-4 align-items-center">Experience</h2>
+    <h2 class="my-4 align-items-center fw-bolder">Experience</h2>
 
     <div class="row justify-content-around">
     <p class="col-8 col-lg-5">
@@ -141,15 +136,20 @@
 
 
 
-   <section class="section2 container-fluid" id="skills">
+   <section class="section2 " id="skills">
     
 
-    <div class="skills">
-       <h2>Skils</h2>
+    <div class="skills container">
+      
+       <div class="row justify-content-between">
+
+        <h2 class="col-12 fw-bolder text-center my-5">Skils</h2>
        <br>
      
-       <div >
-        <span>Html</span>  <span class="prsent">95%</span>
+       <div class="col-lg-5  my-5">
+        <h3 class="mb-5">Technical skils</h3>
+        <div >
+        <span id="html"><i class="fa-brands fa-html5"></i></span>  <span class="prsent">95%</span>
         <div class="progress">
         <div class="html"></div>
          </div>
@@ -161,7 +161,7 @@
 
 
          <div >
-         <span>CSS</span>  <span class="prsent">95%</span>
+         <span id="css"><i class="fa-brands fa-css"></i></span>  <span class="prsent">95%</span>
          <div class="progress">
         <div class="css"></div>
         </div>
@@ -171,7 +171,7 @@
 
 
         <div >
-         <span>Js</span>  <span class="prsent">85%</span>
+         <span id="js"><i class="fa-brands fa-js"></i></span>  <span class="prsent">85%</span>
          <div class="progress">
          <div class="js"></div>
          </div>
@@ -181,7 +181,7 @@
 
 
      <div >
-         <span>Bootstrab</span>  <span class="prsent">90%</span>
+         <span id="boot"><i class="fa-brands fa-bootstrap"></i></span>  <span class="prsent">90%</span>
     <div class="progress">
         <div class="bootstrap"></div>
     </div>
@@ -191,15 +191,31 @@
             <br>
      
        <div >
-        <span>GitHub</span>  <span class="prsent">85%</span>
+        <span id="git"><i class="fa-brands fa-github"></i></span>  <span class="prsent">85%</span>
         <div class="progress">
         <div class="js"></div>
          </div>
          </div>
      
-          <br><br> 
+       </div>
+          
+       <div class="col-lg-5  mt-5 soft-skils">
+        <h4 class="mb-5">Soft Skils</h4>
+          <div>
+            <p class="mb-5"><i class="team fa-solid fa-people-group"></i> Teamwork</p>
+            <p class="mb-5"><i class="problem fa-solid fa-lightbulb"></i> problem Solving</p>
+            <p class="mb-5"><i class="time fa-solid fa-clock"></i> Time Management</p>
+            <p class="mb-5"><i class="fa-solid fa-rotate"></i> Adaptability</p>
+            <p><i class="critical fa-solid fa-seedling"></i> Critical Thinking</p>
+          </div>
+       </div>
+       
 
-    </div> 
+
+  
+       </div>
+
+         </div> 
    </section>
 
 
@@ -212,7 +228,7 @@
     
     <div class="photos row align-items-center">
 
-      <h2 class="col-12">Projects</h2>
+      <h2 class="col-12 fw-bolder">Projects</h2>
 
       <div class=" col-lg-3 col-md-6 m-3 my-3">
         <img src="img/Screenshot 2025-12-17 181955.png" alt=""> <br>
@@ -319,4 +335,4 @@
 
     <script src="js/bootstrap.bundle.js"></script>
 </body>
-            </html>
+</html>
