@@ -2,39 +2,84 @@
     margin: 0;
     padding: 0;
 }
+header{
+    background:  url(../img/ChatGPT\ Image\ Dec\ 18\,\ 2025\,\ 06_13_36\ AM.png);
+    height: 80vh;
+    object-fit: cover;
+    background-position: center ;
+}
+@media(max-width:550px
+){
+    header{
+       background-position:center top ; 
+    }
+}
+nav{
+   box-shadow: rgba(255, 255, 255, 0.61) 0px 3px 2px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
 .nav-link{
     color: white;
     margin-left: 150px;
     text-decoration: none;
+    font-size: 17px;
 }
 .nav-link:hover{
     color: rgb(206, 163, 106);
     text-decoration:underline;
 }
-.img img{
-    width: 350px;
-    height: 280px;
-    border: none;
-    border-radius: 150px;
-}
+
     header .btn{
     background-color: rgb(206, 163, 106);
     margin-top: 30px;
     width: 130px;
     height: 40px;
+    font-size: 17px;
     
 }
-
+.img div{
+    position: absolute;
+    top: 25%;
+}
+.img p{
+    font-weight: bold;
+    word-spacing: 5px;
+    font-size: 20px;
+}
 .section2{
   background-color: beige;
   padding: 50px 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.747)), url(../img/ChatGPT\ Image\ Dec\ 18\,\ 2025\,\ 06_29_33\ AM.png);
+  object-fit: cover;
+  
 }
-#skills{
-display: flex;
-justify-content: center;
+.soft-skils i{
+ font-size: 30px;
+ margin-right: 15px;
 }
-.skills{
-    margin: 0 auto;
+.soft-skils{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2pxpx;
+}
+
+.skills span{
+    font-size: 20px;
+}
+.team{
+    color: #1572B6;
+}
+.problem{
+    color: #F7DF1E;
+}
+.critical{
+    color: #4CAF50;
+}
+.time{
+    color:#F05032 ;
 }
 .about{
     object-fit: cover;
@@ -53,10 +98,28 @@ justify-content: center;
     margin-bottom: 30px;
 }
 
-.skils span{
+.skills span {
     font-weight: bold;
 }
-
+.skills span i{
+    font-size: 35px;
+    
+}
+#html{
+    color: #E34F26;
+}
+#css{
+    color: #1572B6;
+}
+#js{
+    color: #F7DF1E;
+}
+#boot{
+    color: #7952B3;
+}
+#git{
+    color: #F05032;
+}
 .about button{
    background-color: rgb(206, 163, 106);
     margin-top: 30px;
@@ -64,6 +127,7 @@ justify-content: center;
     height: 40px;
     border: none;
     border-radius: 10px;
+    font-size: 17px;
 }
 .about button:hover{
     background-color: beige;
@@ -158,6 +222,7 @@ justify-content: center;
     margin-left: 5px;
     color: white;
     font-size: 16px;
+    font-weight: 400;
 }
 .photos div a{
 text-decoration: none;
@@ -165,6 +230,7 @@ border-radius: 10px;
 background-color: rgb(15, 167, 15);
 color: white;
 padding: 10px;
+font-weight: 600;
 }
 
 
